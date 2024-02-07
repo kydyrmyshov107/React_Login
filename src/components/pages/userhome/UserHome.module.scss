@@ -1,0 +1,43 @@
+.UserHome {
+  .content {
+    .aside {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .inner {
+      flex-wrap: wrap;
+      background: rgb(0, 110, 255);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      width: 220px;
+      height: 100px;
+
+      button {
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #000;
+        border-radius: 5px;
+        transition: all ease 0.1s;
+        box-shadow: 0px 5px 0px 0px #ffffff;
+      }
+
+      button:active {
+        transform: translateY(5px);
+        box-shadow: 0px 0px 0px 0px #ffffff;
+      }
+      p {
+        font-size: 19px;
+        font-weight: 700;
+      }
+    }
+  }
+}

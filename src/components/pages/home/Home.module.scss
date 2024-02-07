@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  .content {
+    .button {
+      background-color: rgb(0, 123, 255);
+      width: 110px;
+
+      &:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(67, 67, 230);
+        border: none;
+      }
+    }
+
+    footer {
+      margin-top: auto;
+    }
+  }
+}

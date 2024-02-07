@@ -1,0 +1,76 @@
+.header {
+  .content {
+    padding-block: 0.7px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 0 40px 0 rgb(0, 89, 191);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      img {
+        width: 100%;
+        max-width: 70px;
+        height: auto;
+        border-radius: 50%;
+        &:hover {
+          padding: 10px;
+        }
+      }
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        li {
+          a {
+            font-size: 23px;
+            color: rgb(49, 49, 255);
+          }
+        }
+      }
+    }
+
+    .auth {
+      button {
+        border: 3px solid #000;
+        outline: none;
+        background-color: #0355c0;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #ffffff;
+        border-radius: 5px;
+        transition: all ease 0.1s;
+        box-shadow: 0px 5px 0px 0px #ffffff;
+      }
+
+      button:active {
+        transform: translateY(5px);
+        box-shadow: 0px 0px 0px 0px #ffffff;
+      }
+
+      .user_info {
+        p {
+          color: black;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
