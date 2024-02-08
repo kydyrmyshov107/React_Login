@@ -5,6 +5,8 @@ import axios from "axios";
 
 const url =
   "https://api.elchocrud.pro/api/v1/afc5f46e0ccea647582b890031c0c221/newusers";
+console.log(url);
+
 export const Login = () => {
   const [name, setValue] = useState("");
   const [password, setPassword] = useState("");
